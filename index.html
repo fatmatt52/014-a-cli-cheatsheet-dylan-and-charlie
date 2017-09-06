@@ -12,14 +12,6 @@
 <body>
     <p1>Command Lists</p1>
 <ul>
-  <li>clear= Clears the screen</li>
-  <li>cd ../../= Move 2 levels up</li>
-  <li>top= Display process information</li>
-  <li>cmp= Compare two files</li>
-  <li>ln= Make links between files</li>
-  <li>shutdown= Shutdown or restart</li>
-  <li>uptime= Show how long system has been running</li>
-  <li>tail= Output the last part of file</li>
   <li>vi= Text Editor</li>
 </ul>
 
@@ -35,14 +27,16 @@
   <li>hostname displays the network name of your computer.</li>
   <li>mkdir is used to <strong>make</strong> a folder/directory.</li>
   <li>touch creates an empty file.</li>
-  <li>cd <strong>changes</strong> the user into a different directory.</li>
+  <li>cd <strong>changes</strong> the user into a different directory. For example "cd code" would take you into the directory called "code". You can also use "cd .." to go up one level in a path of directories, i.e. you were in another directory inside "code", you could type "cd .." and you would now be in "code". </li>
   <li>ls <strong>lists</strong> the contents of the directory the user is currently in.</li>
   <li>rmdir <strong>removes</strong> a directory of your choosing.</li>
   <li>pushd stores a directory for later use. It stacks these directories on top of each other with the first directory on the bottom. The order can be changed around by issuing the pushd command another time.</li>
   <li>popd works with to change your current directory to the one on top of the "stack".</li>
   <li>cp <strong>copies</strong> a file or directory.</li>
+  <li>cmp <strong>compares</strong> two files</li>
   <li>mv is used to <strong>move</strong> a file or directory.</li>
   <li>clear <strong>clears</strong> the screen.</li>
+  <li>ln makes a <strong>link</strong> between files.</li>
   <li>less is typically used to display larger files as it allows you to scroll up and down by line using the k and j keys respectively, and by page using b and f.</li>
   <li>cat is used to display smaller files as the command itself simply displays the text contained within the file on the Terminal window.</li>
   <li>xargs <strong>executes</strong> command-line <strong>arguments</strong>.</li>
@@ -59,6 +53,10 @@
   <li>chmod stands for <strong>ch</strong>ange <strong>mo</strong>de. It is used to change file permissions so that a <strong>user</strong>, a <strong>group</group> of users, or <strong>others</strong>, which includes everyone but the user and the group can either read, write, or execute a file.</li>
   <li>diff is used to display the <strong>difference</strong> between the original file and the newest version of the file. These changes can then be put into a <strong>patch</strong> file by typing "diff *original file name* *new file name* > *random_name*.patch".</li>
   <li>patch is works in conjunction with the diff command as you can update the file with the differences found by the diff command. This can be done by typing, "patch *new version of original file name* *random_name*.patch".
+  <li>top displays information about any processes or applications running at the time.</li>
+  <li>uptime shows how much <strong>time</strong> your system has been <strong>up</strong> and running.</li>
+  <li>shutdown <strong>shuts down</strong> your computer. This command can also be used to schedule a time for computer to shut down, it doesn't have to get shut down that instant.</li>
+  <li>tail outputs the last part or <strong> tail end</strong> of a file or multiple files.</li>
 </ul>
 
 </body>
