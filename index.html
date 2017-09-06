@@ -1,12 +1,48 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>014.A CLI Cheatsheet</title>
 </head>
+
 <body>
 
+<h1>Terminal Cheat Sheet</h1>
+<h2> Here's a list of some basic Terminal commands that you'll probably be using quite a lot:</h2>
+
+<ul>
+  <li>pwd is the command used to print the current folder/directory you are working in.</li>
+  <li>hostname displays the network name of your computer.</li>
+  <li>mkdir is used to <strong>make</strong> a folder/directory.</li>
+  <li>cd <strong>changes</strong> the user into a different directory.</li>
+  <li>ls <strong>lists</strong> the contents of the directory the user is currently in.</li>
+  <li>rmdir <strong>removes</strong> a directory of your choosing.</li>
+  <li>pushd stores a directory for later use. It stacks these directories on top of each other with the first directory on the bottom. The order can be changed around by issuing the pushd command another time.</li>
+  <li>popd works with to change your current directory to the one on top of the "stack".</li>
+  <li>cp <strong>copies</strong> a file or directory.</li>
+  <li>mv is used to <strong>move</strong> a file or directory.</li>
+  <li>less is typically used to display larger files as it allows you to scroll up and down by line using the k and j keys respectively, and by page using b and f.</li>
+  <li>cat is used to display smaller files as the command itself simply displays the text contained within the file on the Terminal window.</li>
+  <li>xargs <strong>executes</strong> command-line <strong>arguments</strong>.</li>
+  <li>find quite literally <strong>finds</strong> files.</li>
+  <li>grep can be used to find things within files.</li>
+  <li>man allows you to read a <strong>man</strong>ual page of your choosing.</li>
+  <li>apropos lets you find which manual page is <strong>appropriate</strong>.</li>
+  <li>env looks at your <strong>environment</strong>.</li>
+  <li>echo essentially <strong>echoes</strong> whatever you enter after it. This isn't used very much, however one case that it may be useful is using it to see what value a variable such as x = 5, you would put echo x and it would display the number 5 on the screen.</li>
+  <li>export sets a new environmental variable.</li>
+  <li>exit <strong>exits</strong> the shell, which is the program that Terminal runs which is most likely <strong>bash</strong>.</li>
+  <li>sudo elevates privileges and allows access to actions that were denied before.</li>
+  <li>curl can be used to download files.</li>
+  <li>chmod stands for <strong>ch</strong>ange <strong>mo</strong>de. It is used to change file permissions so that a <strong>user</strong>, a <strong>group</group> of users, or <strong>others</strong>, which includes everyone but the user and the group can either read, write, or execute a file.</li>
+  <li>diff is used to display the <strong>difference</strong> between the original file and the newest version of the file. These changes can then be put into a <strong>patch</strong> file by typing "diff *original file name* *new file name* > *random_name*.patch".</li>
+  <li>patch is works in conjunction with the diff command as you can update the file with the differences found by the diff command. This can be done by typing, "patch *new version of original file name* *random_name*.patch".
+</ul>
+
 </body>
+
 </html>
